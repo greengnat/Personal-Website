@@ -1,0 +1,33 @@
+* {
+  font-family: "poppins", sans-serif;
+}
+
+.header {
+  width: 100vw;
+  background-color: rgb(70, 94, 191);
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+nav {
+  margin-right: 3rem;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  min-width: 25vw;
+}
+
+a {
+  color: #f7f7f7;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: auto 1rem;
+  transition: all 0.4s;
+}
+
+a:hover {
+  transform: translateY(-0.5rem);
+}
