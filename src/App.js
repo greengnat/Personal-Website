@@ -11,7 +11,6 @@ import "./App.css";
 
 import Home from "./pages/home/home";
 import Projects from "./pages/Projects/Projects.js";
-import Calculator from "./calculator/styles";
 
 function App() {
   return (

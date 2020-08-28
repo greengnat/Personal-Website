@@ -30,7 +30,7 @@ const CalculatorGridStyles = styled.div`
   }
 `;
 
-const Calculator = props => {
+const CalculatorStyles = (props) => {
   console.log(props);
   return (
     <CalculatorWrapper>
@@ -39,4 +39,4 @@ const Calculator = props => {
   );
 };
 
-export default Calculator;
+export default CalculatorStyles;
