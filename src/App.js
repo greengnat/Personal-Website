@@ -11,6 +11,7 @@ import "./App.css";
 
 import Home from "./pages/home/home";
 import Projects from "./pages/Projects/Projects.js";
+import Skills from "./pages/Skills/Skills.js";
 
 function App() {
   return (
@@ -18,12 +19,13 @@ function App() {
       <div className="App">
         <NavBar color>
           <Link to="/">Home</Link>
-          <Link>Skills</Link>
+          <Link to="/Skills">Skills</Link>
           <Link to="/projects">Projects</Link>
         </NavBar>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/Projects" exact component={Projects} />
+          <Route path="/Skills" exact component={Skills} />
         </Switch>
       </div>
     </Router>

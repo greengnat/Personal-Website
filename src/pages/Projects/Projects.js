@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Calculator from "./calculator/calculator";
 import CovidTracker from "../../ProjectSrcScripts/covid-tracker/src/App.js";
 import ExpenseTracker from "../../ProjectSrcScripts/expense-tracker/src/App.js";
+import RecipeBuilder from "../../ProjectSrcScripts/recipe-builder/src/App.js";
 
 const Display = styled.div`
   display: flex;
@@ -13,7 +14,7 @@ const Display = styled.div`
 
 const SideBar = styled.div`
   width: 15vw;
-  height: 100vh;
+  height: 90vh;
   background-color: grey;
   display: flex;
   flex-direction: column;
@@ -56,6 +57,9 @@ export default function Projects() {
   const displayExpenseTracker = () => {
     setDisplay("expenseTracker");
   };
+  const displayRecipe = () => {
+    setDisplay("recipe");
+  };
   return (
     <Display>
       <SideBar>
@@ -69,12 +73,13 @@ export default function Projects() {
           Expense Tracker
         </ProjectButton>
 
-        <ProjectButton>Test</ProjectButton>
+        <ProjectButton onClick={displayRecipe}>Recipe Builder</ProjectButton>
       </SideBar>
       <ProjectContainer>
         {display == "calculator" ? <Calculator /> : null}
         {display == "covidTracker" ? <CovidTracker /> : null}
         {display == "expenseTracker" ? <ExpenseTracker /> : null}
+        {display == "recipe" ? <RecipeBuilder /> : null}
       </ProjectContainer>
     </Display>
   );
