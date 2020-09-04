@@ -4,6 +4,10 @@ import CSSIMG from "./pics/csslogo.png";
 import ReactIMG from "./pics/reactlogo.png";
 import JSIMG from "./pics/jslogo.png";
 
+//this page displays cards containing info about my various skills
+
+
+
 const CardContainer = styled.div`
   height: 100vh;
   width: 100vw;

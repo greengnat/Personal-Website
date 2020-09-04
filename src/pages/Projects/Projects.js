@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import Calculator from "./calculator/calculator";
+// import Calculator from "./calculator/calculator";
 import CovidTracker from "../../ProjectSrcScripts/covid-tracker/src/App.js";
 import ExpenseTracker from "../../ProjectSrcScripts/expense-tracker/src/App.js";
-import RecipeBuilder from "../../ProjectSrcScripts/recipe-builder/src/App.js";
+// import RecipeBuilder from "../../ProjectSrcScripts/recipe-builder/src/App.js";
 
 const Display = styled.div`
   display: flex;
@@ -44,9 +44,9 @@ const ProjectButton = styled.div`
 export default function Projects() {
   const [display, setDisplay] = useState("default");
 
-  const displayCalculator = () => {
-    setDisplay("calculator");
-  };
+  // const displayCalculator = () => {
+  //   setDisplay("calculator");
+  // };
 
   const displayDefault = () => {
     setDisplay("default");
@@ -57,9 +57,9 @@ export default function Projects() {
   const displayExpenseTracker = () => {
     setDisplay("expenseTracker");
   };
-  const displayRecipe = () => {
-    setDisplay("recipe");
-  };
+  // const displayRecipe = () => {
+  //   setDisplay("recipe");
+  // };
   return (
     <Display>
       <SideBar>
@@ -67,19 +67,19 @@ export default function Projects() {
           Covid Tracker
         </ProjectButton>
 
-        <ProjectButton onClick={displayCalculator}>Calculator</ProjectButton>
+        {/* <ProjectButton onClick={displayCalculator}>Calculator</ProjectButton> */}
 
         <ProjectButton onClick={displayExpenseTracker}>
           Expense Tracker
         </ProjectButton>
 
-        <ProjectButton onClick={displayRecipe}>Recipe Builder</ProjectButton>
+        {/* <ProjectButton onClick={displayRecipe}>Recipe Builder</ProjectButton> */}
       </SideBar>
       <ProjectContainer>
-        {display == "calculator" ? <Calculator /> : null}
+        {/* {display == "calculator" ? <Calculator /> : null} */}
         {display == "covidTracker" ? <CovidTracker /> : null}
         {display == "expenseTracker" ? <ExpenseTracker /> : null}
-        {display == "recipe" ? <RecipeBuilder /> : null}
+        {/* {display == "recipe" ? <RecipeBuilder /> : null} */}
       </ProjectContainer>
     </Display>
   );
