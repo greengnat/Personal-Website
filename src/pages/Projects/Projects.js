@@ -5,6 +5,7 @@ import CovidTracker from "../../ProjectSrcScripts/covid-tracker/src/App.js";
 import ExpenseTracker from "../../ProjectSrcScripts/expense-tracker/src/App.js";
 // import RecipeBuilder from "../../ProjectSrcScripts/recipe-builder/src/App.js";
 
+//this page displays my projects. Currently some are commented out due to formatting issues
 const Display = styled.div`
   display: flex;
   width: 100vw;
