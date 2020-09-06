@@ -15,7 +15,7 @@ const Display = styled.div`
 
 const SideBar = styled.div`
   width: 15vw;
-  height: 90vh;
+  height: 100vh;
   background-color: grey;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ const SideBar = styled.div`
 const ProjectContainer = styled.div`
   width: 85vw;
   height: 100;
-  background-color: lightblue;
+  // background-color: lightblue;
 `;
 
 const ProjectButton = styled.div`

@@ -12,6 +12,7 @@ import "./App.css";
 import Home from "./pages/home/home";
 import Projects from "./pages/Projects/Projects.js";
 import Skills from "./pages/Skills/Skills.js";
+import Contact from "./pages/Contact/Contact.js";
 
 //add a resume page displaying resume pdf
 
@@ -23,11 +24,13 @@ function App() {
           <Link to="/">Home</Link>
           <Link to="/Skills">Skills</Link>
           <Link to="/projects">Projects</Link>
+          <Link to="/contact">Contact</Link>
         </NavBar>
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/Projects" exact component={Projects} />
           <Route path="/Skills" exact component={Skills} />
+          <Route path="/Contact" exact component={Contact} />
         </Switch>
       </div>
     </Router>
