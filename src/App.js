@@ -13,6 +13,8 @@ import Home from "./pages/home/home";
 import Projects from "./pages/Projects/Projects.js";
 import Skills from "./pages/Skills/Skills.js";
 
+//add a resume page displaying resume pdf
+
 function App() {
   return (
     <Router>
