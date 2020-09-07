@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
+  position: absolute;
 }
 nav {
   margin-right: 3rem;

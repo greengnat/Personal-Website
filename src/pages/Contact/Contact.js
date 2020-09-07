@@ -12,6 +12,7 @@ const ContactInfo = styled.div`
   justify-content: center;
   align-items: center;
   padding-bottom: 12rem;
+  background-color: #fff;
 `;
 
 const WhiteSpace = styled.div`

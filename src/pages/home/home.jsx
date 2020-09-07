@@ -13,10 +13,11 @@ const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-color: #fff;
 `;
 
 const AboutContainer = styled.div`
-  padding-top: 4rem;
+  padding-top: 9rem;
   width: 100%;
   height: 50vh;
   background-color: #fff;
@@ -39,6 +40,7 @@ const AboutScriptContainer = styled.div`
   color: black;
   font-size: 1.75rem;
   letter-spacing: 0.125rem;
+
   padding-left: 2rem;
   padding-right: 2rem;
   box-shadow: 0.2rem 0.2rem 1.4rem rgba(0, 0, 0, 0.4);
