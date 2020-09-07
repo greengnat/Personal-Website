@@ -7,7 +7,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 const ContactInfo = styled.div`
   display: flex;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   justify-content: center;
   align-items: center;

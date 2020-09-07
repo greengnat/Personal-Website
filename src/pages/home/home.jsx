@@ -12,7 +12,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 100vh;
 `;
 
 const AboutContainer = styled.div`
