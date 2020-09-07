@@ -6,8 +6,6 @@ import JSIMG from "./pics/jslogo.png";
 
 //this page displays cards containing info about my various skills
 
-
-
 const CardContainer = styled.div`
   height: 100vh;
   width: 100vw;
@@ -17,6 +15,7 @@ const CardContainer = styled.div`
   padding-left: 8rem;
   padding-right: 8rem;
   padding-bottom: 10rem;
+  background-color: #fff;
 `;
 
 const card = styled.div`

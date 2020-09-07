@@ -16,7 +16,7 @@ const Display = styled.div`
 const SideBar = styled.div`
   width: 15vw;
   height: 100vh;
-  background-color: grey;
+  background-color: #90a5f9;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -28,17 +28,19 @@ const SideBar = styled.div`
 const ProjectContainer = styled.div`
   width: 85vw;
   height: 100;
-  // background-color: lightblue;
+  background-color: #fff;
 `;
 
 const ProjectButton = styled.div`
   font-size: 1.5rem;
   padding: 0.3rem;
   border-radius: 8px;
-  background-color: lightblue;
+  background-color: #e2e7fd;
   cursor: pointer;
+  transition: 0.4s;
   &:hover {
-    background-color: lightyellow;
+    transform: translateY(-0.3rem);
+    box-shadow: 0.2rem 0.2rem 1.4rem rgba(0, 0, 0, 0.4);
   }
 `;
 

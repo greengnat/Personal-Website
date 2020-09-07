@@ -10,7 +10,7 @@ const StyledAbout = styled.p`
   letter-spacing: 0.2rem;
   text-align: center;
   padding-top: 8rem;
-  color: #6885f7;
+  color: #f7f7f7;
   line-height: 4rem;
 `;
 export default function about(props) {

@@ -30,7 +30,8 @@ const AboutScriptContainer = styled.div`
   width: 60%;
   height: 85%;
   border-radius: 3rem;
-  background-color: #90a5f9;
+  background-color: #fff;
+  border: 0.5rem solid #90a5f9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +41,7 @@ const AboutScriptContainer = styled.div`
   letter-spacing: 0.125rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  box-shadow: 0.2rem 0.2rem 1.4rem rgba(0, 0, 0, 0.4); ;
+  box-shadow: 0.2rem 0.2rem 1.4rem rgba(0, 0, 0, 0.4);
 `;
 
 const Slash = styled.div`
