@@ -77,10 +77,6 @@ const IconLinks = styled.div`
   margin-bottom: 4rem;
 `;
 
-const WhiteSpace = styled.div`
-  margin: 1rem;
-`;
-
 //fix linkedin link
 
 export default function Home() {
@@ -111,7 +107,6 @@ export default function Home() {
             cursor="pointer"
           ></FaGithubSquare>
         </a>
-        <WhiteSpace></WhiteSpace>
 
         <a href="https://www.linkedin.com/in/william-lucas-07a38216b/">
           <FaLinkedinIn
