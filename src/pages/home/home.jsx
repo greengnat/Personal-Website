@@ -58,6 +58,7 @@ const Slash = styled.div`
 const BottomContainer = styled.div`
   width: 100%;
   background-color: #fff;
+
   height: 30vh;
   text-align: center;
   font-size: 1.25rem;
@@ -71,6 +72,7 @@ const IconLinks = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 4rem;
 `;
 
 const WhiteSpace = styled.div`
