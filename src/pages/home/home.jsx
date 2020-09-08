@@ -9,6 +9,8 @@ import { FaAngleRight } from "react-icons/fa";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
+import { Link } from "react-router-dom";
+
 const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -79,6 +81,8 @@ const WhiteSpace = styled.div`
   margin: 1rem;
 `;
 
+//fix linkedin link
+
 export default function Home() {
   return (
     <HomeContainer>
@@ -100,17 +104,22 @@ export default function Home() {
         below are links to my github and linkedin.
       </BottomContainer>
       <IconLinks>
-        <FaGithubSquare
-          size={100}
-          color="#90a5f9"
-          cursor="pointer"
-        ></FaGithubSquare>
+        <a href="https://github.com/greengnat">
+          <FaGithubSquare
+            size={100}
+            color="#90a5f9"
+            cursor="pointer"
+          ></FaGithubSquare>
+        </a>
         <WhiteSpace></WhiteSpace>
-        <FaLinkedinIn
-          size={100}
-          color="#90a5f9"
-          cursor="pointer"
-        ></FaLinkedinIn>
+
+        <a href="https://www.linkedin.com/in/william-lucas-07a38216b/">
+          <FaLinkedinIn
+            size={100}
+            color="#90a5f9"
+            cursor="pointer"
+          ></FaLinkedinIn>
+        </a>
       </IconLinks>
       <Theme />
     </HomeContainer>
