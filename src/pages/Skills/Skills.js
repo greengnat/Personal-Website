@@ -5,6 +5,7 @@ import ReactIMG from "./pics/reactlogo.png";
 import JSIMG from "./pics/jslogo.png";
 
 //this page displays cards containing info about my various skills
+//to add: notes about each card on the bottom half
 
 const CardContainer = styled.div`
   height: 100vh;
