@@ -11,6 +11,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 import { Link } from "react-router-dom";
 
+//refactor homepage into components and import them from components file
+
 const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
