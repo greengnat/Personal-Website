@@ -32,6 +32,7 @@ const CardJS = styled(card)`
 
 const CardCSS = styled(card)`
   background-color: lightblue;
+  display: flex;
 `;
 const CardReact = styled(card)`
   background-color: rgb(28, 28, 28);

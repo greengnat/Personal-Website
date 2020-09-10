@@ -13,6 +13,8 @@ import { Link } from "react-router-dom";
 
 //refactor homepage into components and import them from components file
 
+//need to make homepage mobile friendly
+
 const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -88,11 +90,9 @@ export default function Home() {
         <FaAngleLeft size={90} color="#90a5f9"></FaAngleLeft>
 
         <AboutScriptContainer>
-          Hello! My name's Will. I am a self taught web developer based out of
-          Portland Oregon. My primary goal is to become a front end developer,
-          but I am capable of working on backends too! Outside of coding I like
-          to enjoy time in nature, lift weights, make art, and play video games
-          with my friends.
+          Welcome! My name is Will, I am a front end developer based out of
+          Portland Oregon. This website displays my projects and skills as well
+          as various ways to get in touch with me.
         </AboutScriptContainer>
         <Slash>/</Slash>
         <FaAngleRight size={90} color="#90a5f9"></FaAngleRight>
