@@ -3,9 +3,12 @@ import styled from "styled-components";
 // import Calculator from "./calculator/calculator";
 import CovidTracker from "../../ProjectSrcScripts/covid-tracker/src/App.js";
 import ExpenseTracker from "../../ProjectSrcScripts/expense-tracker/src/App.js";
+import PhotoEditor from "../../ProjectSrcScripts/photo-editor/src/App.js";
 // import RecipeBuilder from "../../ProjectSrcScripts/recipe-builder/src/App.js";
 
 //this page displays my projects. Currently some are commented out due to formatting issues
+
+//to do: fix styling issues, projects not fitting page properly
 const Display = styled.div`
   display: flex;
   width: 100vw;
@@ -47,9 +50,9 @@ const ProjectButton = styled.div`
 export default function Projects() {
   const [display, setDisplay] = useState("default");
 
-  // const displayCalculator = () => {
-  //   setDisplay("calculator");
-  // };
+  const displayPhotoEditor = () => {
+    setDisplay("PhotoEditor");
+  };
 
   const displayDefault = () => {
     setDisplay("default");
@@ -70,7 +73,7 @@ export default function Projects() {
           Covid Tracker
         </ProjectButton>
 
-        {/* <ProjectButton onClick={displayCalculator}>Calculator</ProjectButton> */}
+        <ProjectButton onClick={displayPhotoEditor}>Photo Editor</ProjectButton>
 
         <ProjectButton onClick={displayExpenseTracker}>
           Expense Tracker
@@ -79,7 +82,7 @@ export default function Projects() {
         {/* <ProjectButton onClick={displayRecipe}>Recipe Builder</ProjectButton> */}
       </SideBar>
       <ProjectContainer>
-        {/* {display == "calculator" ? <Calculator /> : null} */}
+        {display == "PhotoEditor" ? <PhotoEditor /> : null}
         {display == "covidTracker" ? <CovidTracker /> : null}
         {display == "expenseTracker" ? <ExpenseTracker /> : null}
         {/* {display == "recipe" ? <RecipeBuilder /> : null} */}
