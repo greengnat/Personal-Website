@@ -6,6 +6,7 @@ import JSIMG from "./pics/jslogo.png";
 
 //this page displays cards containing info about my various skills
 //to add: notes about each card on the bottom half
+//also add github card, html, other as applicable
 
 const CardContainer = styled.div`
   height: 100vh;
@@ -34,6 +35,8 @@ const CardCSS = styled(card)`
   background-color: lightblue;
   display: flex;
 `;
+
+//for some reason this card resizes at smaller screen sizes while the others dont
 const CardReact = styled(card)`
   background-color: rgb(28, 28, 28);
   display: flex;
