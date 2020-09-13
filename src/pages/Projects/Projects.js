@@ -11,6 +11,7 @@ import PhotoEditor from "../../ProjectSrcScripts/photo-editor/src/App.js";
 //to do: fix styling issues, projects not fitting page properly
 const Display = styled.div`
   display: flex;
+  height: 100vh;
   width: 100vw;
   margin: 0 auto;
   padding: 0;
@@ -30,7 +31,8 @@ const SideBar = styled.div`
 
 const ProjectContainer = styled.div`
   width: 85vw;
-  height: 100;
+  height: 100vh;
+
   background-color: #fff;
 `;
 

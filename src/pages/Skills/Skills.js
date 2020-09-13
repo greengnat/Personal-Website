@@ -7,6 +7,7 @@ import JSIMG from "./pics/jslogo.png";
 //this page displays cards containing info about my various skills
 //to add: notes about each card on the bottom half
 //also add github card, html, other as applicable
+//make project button close current project if open
 
 const CardContainer = styled.div`
   height: 100vh;
