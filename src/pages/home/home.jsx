@@ -52,6 +52,7 @@ const AboutScriptContainer = styled.div`
   box-shadow: 0.2rem 0.2rem 1.4rem rgba(0, 0, 0, 0.4);
 `;
 
+//slash before closing carrot makes welcome script look like code
 const Slash = styled.div`
   display: flex;
   flex-direction: row;
