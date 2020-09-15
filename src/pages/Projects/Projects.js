@@ -17,6 +17,7 @@ const Display = styled.div`
   padding: 0;
 `;
 
+//redesign to be more visually appealing
 const SideBar = styled.div`
   width: 15vw;
   height: 100vh;
