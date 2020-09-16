@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 //refactor homepage into components and import them from components file
 
-//need to make homepage mobile friendly
+//need to make homepage mobile friendly, resize
 
 const HomeContainer = styled.div`
   display: flex;
