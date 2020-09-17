@@ -5,6 +5,8 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaPhoneSquare } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
+//use themes to dictate colors
+
 const ContactInfo = styled.div`
   display: flex;
   height: 100vh;
