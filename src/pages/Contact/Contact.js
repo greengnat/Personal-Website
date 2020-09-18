@@ -36,6 +36,7 @@ const ContactContainer = styled.div`
   box-shadow: 0.2rem 0.2rem 1.4rem rgba(0, 0, 0, 0.4);
 `;
 
+//spaces out icons on screen
 const WhiteSpace = styled.div`
   margin: 1rem;
 `;
