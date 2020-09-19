@@ -15,6 +15,8 @@ import { Link } from "react-router-dom";
 
 //need to make homepage mobile friendly, resize
 
+//store colors as variables in ui components and import from there
+
 const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
